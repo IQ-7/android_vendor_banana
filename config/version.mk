@@ -13,7 +13,7 @@
 # limitations under the License.
 
 BANANA_CODENAME = Susu
-BANANA_MOD_VERSION = v2.1
+BANANA_MOD_VERSION = v2.2
 BANANA_PLATFORM_RELEASE_OR_CODENAME := 12L
 
 ifndef BANANA_BUILD_TYPE
@@ -23,7 +23,7 @@ endif
 TARGET_PRODUCT_SHORT := $(subst banana_,,$(BANANA_BUILD))
 
 # Custom security patch
-CUSTOM_SECURITY_PATCH := 2022-10-05
+CUSTOM_SECURITY_PATCH := 2022-11-05
 
 # GApps
 ifeq ($(WITH_GAPPS),true)
