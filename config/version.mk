@@ -23,7 +23,7 @@ endif
 TARGET_PRODUCT_SHORT := $(subst banana_,,$(BANANA_BUILD))
 
 # Custom security patch
-CUSTOM_SECURITY_PATCH := 2022-11-05
+CUSTOM_SECURITY_PATCH := 2022-12-05
 
 # GApps
 ifeq ($(WITH_GAPPS),true)
